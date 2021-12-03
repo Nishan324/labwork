@@ -1,0 +1,5 @@
+noofminutes=int(input("enter the minutes passed science midnight:"))
+hours=(noofminutes//60)
+mminutes=(noofminutes%60)
+print(f"the hour is {hours}")
+print(f"the minutes is{mminutes}")
